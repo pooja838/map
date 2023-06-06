@@ -23,3 +23,5 @@ for log_file in $(find "$log_directory" -type f -name "$log_pattern"); do
 
     echo "" >> "$output_file"
     echo "poooooooooooo"
+    echo "pooooooooooooooooo"
+~                          
