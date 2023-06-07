@@ -6,9 +6,21 @@ log_pattern="*.log"
 errror_keyword="error"
 
 output_file="/home/pooja/wrong.txt"
+echo "oda"
+> "$output_file"
+echo "hello"
+#!/bin/bash
+log_directory="/var/log"
+
+log_pattern="*.log"
+
+errror_keyword="error"
+
+output_file="/home/pooja/wrong.txt"
 
 > "$output_file"
 echo "hello"
+
 
 for log_file in $(find "$log_directory" -type f -name "$log_pattern"); do
     echo "Log : $log_file" >> "$output_file"
